@@ -3,7 +3,7 @@ A url generator, created entirely by Chat GPT, given specifications from user in
 
 The url shortener works as tested and was employed with Jupyter Notebooks. 
 
-An improvement would be to automatically store all URL's to a Microsoft Word Document, this could be useful in research and generating a base set of links pertaining to a prospective research topic. 
+An improvement would be to automatically store all URL's to a Microsoft Word Document, this could be useful in research and generating a base set of links pertaining to a prospective research topic. I am interested in utilizing the recently learned skills of prompt engineering to further automate tasks for this program in order to make a quicker and more powerful URL Shortener.  
 
 
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)

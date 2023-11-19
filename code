@@ -6,7 +6,7 @@ class URLShortener:
         self.url_mapping = {}
         self.short_url_prefix = "http://short.url/"
         self.short_url_length = 6
-
+    #Setting parameters and implementing four loop
     def generate_short_url(self):
         characters = string.ascii_letters + string.digits
         return ''.join(random.choice(characters) for _ in range(self.short_url_length))

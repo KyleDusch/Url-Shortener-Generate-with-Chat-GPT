@@ -44,6 +44,6 @@ if __name__ == "__main__":
     retrieved_url = shortener.get_original_url(short_url)
     print("Retrieved URL:", retrieved_url)
 
-  #Generated Results
+#Generated Results of the shortened URL
 Original URL: https://builder.hostinger.com/d95DpDxxraTPxoJX
 Short URL: http://short.url/zevfh8

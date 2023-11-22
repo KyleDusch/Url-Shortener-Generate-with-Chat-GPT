@@ -13,7 +13,7 @@ class URLShortener:
 
     def shorten_url(self, original_url):
         if original_url in self.url_mapping.values():
-            # If the URL is already shortened, return the existing short URL
+            # If the URL is already shortened, return the existing short URL, prevents an error with an already shortened URL from being shortened.
             return next(short_url for short_url, url in self.url_mapping.items() if url == original_url)
         else:
             # Generate a new short URL
